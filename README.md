@@ -38,6 +38,20 @@ The library is based on `gatttool` which allows you to send messages via command
   print candle2.getBatteryLevel()
 ```  
 
+## Troubleshooting
+
+You can check whether your bluetooth dongle is connected
+
+    lsusb
+    
+On my system, I see with a dongle marked 'CSR 4.0' (cheap from ebay)
+
+    $ lsusb
+    Bus 001 Device 004: ID 0a12:0001 Cambridge Silicon Radio, Ltd Bluetooth Dongle (HCI mode)
+    Bus 001 Device 003: ID 0424:ec00 Standard Microsystems Corp. SMSC9512/9514 Fast Ethernet Adapter
+    Bus 001 Device 002: ID 0424:9514 Standard Microsystems Corp.
+    Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+
 ## Acknowledgements
 * http://colinkraft.com/candle/candle.php
 * https://github.com/Phhere/Playbulb/blob/master/protocols/candle.md
