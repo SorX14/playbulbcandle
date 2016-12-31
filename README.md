@@ -34,8 +34,8 @@ Look in `tester.py` for a working example. More information can be found in this
 ```python
   from playbulbcandle import PlayBulbCandle
   
-  var candle1 = PlayBulbCandle('AA:AA:AA:AA:AA:AA')
-  var candle2 = PlayBulbCandle('BB:BB:BB:BB:BB:BB')
+  candle1 = PlayBulbCandle('AA:AA:AA:AA:AA:AA')
+  candle2 = PlayBulbCandle('BB:BB:BB:BB:BB:BB')
   
   candle1.setColor(0, 255, 0, 0) # Set color to red
   candle1.setEffect(255, 0, 0, 0, 'candle', 0) # Candle flicker effect in white
