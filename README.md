@@ -1,4 +1,4 @@
-# PlayBulbCandle
+# playbulb-candle
 Python library for communicating with PlayBulb Candles.
 
 [PlayBulb](http://www.playbulb.com/en/index.html) Candles are RGBW Bluetooth 4.0 candles which are controlled with a iOS/Android app. 
