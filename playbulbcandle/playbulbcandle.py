@@ -137,7 +137,7 @@ class PlayBulbCandle:
 		return self.write(self.commands['setEffect'], value)
 
 	def getEffect(self):
-		modes = {1: 'fade', 2: 'jumpRgb', 3: 'fadeRgb', 4: 'candle'}
+		modes = {1: 'fade', 2: 'jumpRgb', 3: 'fadeRgb', 4: 'candle', 255: 'off'}
 
 		result = self.read(self.commands['setEffect'])
 		args = shlex.split(result['msg'])
