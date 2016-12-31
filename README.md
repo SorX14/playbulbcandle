@@ -25,6 +25,8 @@ The library is based on `gatttool` which allows you to send messages via command
 
 ## Usage
 
+Look in `tester.py` for a working example
+
 ```python
   from playbulbcandle import PlayBulbCandle
   
@@ -40,6 +42,7 @@ The library is based on `gatttool` which allows you to send messages via command
 
 ## Troubleshooting
 
+### Bluetooth dongle
 You can check whether your bluetooth dongle is connected
 
     lsusb
@@ -51,6 +54,10 @@ On my system, I see with a dongle marked 'CSR 4.0' (cheap from ebay)
     Bus 001 Device 003: ID 0424:ec00 Standard Microsystems Corp. SMSC9512/9514 Fast Ethernet Adapter
     Bus 001 Device 002: ID 0424:9514 Standard Microsystems Corp.
     Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+
+### Cannot connect
+
+Make sure you're not already connected with the app. Only one device can connect to the bulb at once
 
 ## Acknowledgements
 * http://colinkraft.com/candle/candle.php
