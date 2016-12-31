@@ -22,6 +22,10 @@ The library is based on `gatttool` which allows you to send messages via command
     gatttool -b [mac address] --char-write-req -a [register] -n [value]
     gatttool -b [mac address] --char-write -a [register] -n [value]
     gatttool -b [mac address] --char-read -a [register]
+    
+Get the library
+
+    pip install playbulbcandle
 
 ## Usage
 
