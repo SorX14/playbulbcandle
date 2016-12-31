@@ -26,7 +26,7 @@ The library is based on `gatttool` which allows you to send messages via command
 ## Usage
 
 ```python
-  import playbulbcandle
+  import playbulb-candle
   
   var candle1 = PlayBulbCandle('AA:AA:AA:AA:AA:AA')
   var candle2 = PlayBulbCandle('BB:BB:BB:BB:BB:BB')
