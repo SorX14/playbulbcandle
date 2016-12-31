@@ -26,10 +26,10 @@ The library is based on `gatttool` which allows you to send messages via command
 Get the library
 
     pip install playbulbcandle
-
+    
 ## Usage
 
-Look in `tester.py` for a working example
+Look in `tester.py` for a working example. More information can be found in this [blob post](https://stevep.xyz/2016/12/controlling-playbulb-candles-with-python/).
 
 ```python
   from playbulbcandle import PlayBulbCandle
