@@ -51,7 +51,7 @@ You can check whether your bluetooth dongle is connected
 
     lsusb
     
-On my system, I see with a dongle marked 'CSR 4.0' (cheap from ebay)
+On my system, I see with a dongle marked 'CSR 4.0' (cheap from ebay). For the Raspberry Pi 3, you don't need an adapter because BLE is built in.
 
     $ lsusb
     Bus 001 Device 004: ID 0a12:0001 Cambridge Silicon Radio, Ltd Bluetooth Dongle (HCI mode)
